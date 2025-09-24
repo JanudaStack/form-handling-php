@@ -15,10 +15,60 @@
          text-align: center;
       }
 
+      input[type="text"],
+      input[type="email"] {
+         width: 100%;
+         padding: 10px;
+         margin-bottom: 20px;
+         border: 1px solid #ccc;
+         border-radius: 4px;
+         box-sizing: border-box;
+         font-size: 16px;
+      }
+
+      input[type="submit"] {
+         width: 100%;
+         margin-top: 1rem;
+         padding: 10px;
+         background-color: #007bff;
+         color: white;
+         border: none;
+         border-radius: 4px;
+         cursor: pointer;
+         transition: background-color .3s ease
+      }
+
+      input[type="submit"]:hover {
+         background-color: #0056b3;
+      }
+
+      input[type="submit"]:active {
+         background-color: #004494;
+      }
+
+      label {
+         font-size: 14px;
+         color: #333;
+         margin-bottom: 10px;
+      }
+
       form {
          display: flex;
          flex-direction: column;
          align-items: center;
+      }
+
+      .form-field {
+         background-color: #d5d5d5ff;
+         padding: 2rem 3rem;
+         border-radius: 1rem;
+      }
+
+      select {
+         width: 100%;
+         border-radius: 4px;
+         display: flex;
+         padding: 10px;
       }
    </style>
 </head>
