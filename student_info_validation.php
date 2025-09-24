@@ -5,6 +5,42 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Form Results</title>
+
+   <style>
+      * {
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      h2,
+      p {
+         text-align: center;
+      }
+
+      a {
+         width: 20%;
+         margin-top: 2em;
+         margin-left: auto;
+         margin-right: auto;
+         position: relative;
+         display: flex;
+         justify-content: center;
+         padding: 10px;
+         background-color: #007bff;
+         color: white;
+         border: none;
+         border-radius: 4px;
+         cursor: pointer;
+         transition: background-color .3s ease
+      }
+
+      a:hover {
+         background-color: #0056b3;
+      }
+
+      a:active {
+         background-color: #004494;
+      }
+   </style>
 </head>
 
 <body>
